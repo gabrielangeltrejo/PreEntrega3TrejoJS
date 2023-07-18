@@ -1,0 +1,36 @@
+.body{
+    background: rgb(154,18,112);
+background: linear-gradient(122deg, rgba(154,18,112,1) 26%, rgba(124,22,168,1) 48%, rgba(9,9,121,1) 77%);
+    box-sizing: border-box;
+    font-family: 'Tektur', cursive;
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    margin: 2%;
+    padding: 10px;
+    width: auto;
+    align-self: center;
+    background-color: #090979b9;
+    border-radius: 7px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+
+.divButton{
+    margin: 20px;
+    padding: 10px;
+    background-color: yellow;
+}
+.buttonJugar{
+    background-color: black;
+    color: white;
+}
+
+.sacarButton{
+    display: none;
+}
